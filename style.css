@@ -378,10 +378,10 @@ h4{
 .mapouter{
 
   border: 2px black;
-  left: 25%;
+
   position:absolute;
   text-align:left;
-  height:500px;
+  height:800px;
   width:100%;}
 
 .gmap_canvas {
