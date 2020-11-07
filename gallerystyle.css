@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+.top{
+  background-color:#5D4954;
+
+  text-align:center;
+  line-height:85px
+  height: 85px;
+  width: 100%;
+  font-size: 45px;
+    color:#e4e3e3;
+}
+
+
+
+.gap{
+  height:5px;
+  width: 100%;
+}
+
+
+
+.imagesdiv{
+
+  background-image: url(images/nightsky.jpg);
+
+  border-radius: 60%;
+}
+
+.imagesdiv:hover {
+  opacity: 0.5px;
+  border: 4px solid #777;
+}
+
+.eachimage{
+  display: inline-block;
+  height: 450px;
+  width: 450px;
+  margin: 25px;
+  border-radius: 20%;
+
+}

@@ -1,0 +1,28 @@
+.top{
+  background-color:#5D4954;
+
+  text-align:center;
+  line-height:85px
+  height: 85px;
+  width: 100%;
+  font-size: 45px;
+    color:#e4e3e3;
+}
+
+.mapouter{
+  padding-left: 20%;
+  border: 2px black;
+  left: 25%;
+  position:absolute;
+  text-align:left;
+  height:500px;
+  width:100%;}
+
+.gmap_canvas {
+    border: 2px black;
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:100;
+
+}
