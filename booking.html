@@ -11,7 +11,7 @@
 
     <div class="top">
 
-      BOOK NOW!
+      CONTACT US
 
     </div>
 
@@ -38,14 +38,24 @@
 
         </div>
 
+        <div class="bookingparadiv">
 
-        <p class="bookingpara" style="color:black">Whats more delightful than camping besides a wonderful lake and watching the beautiful rippling waves? Nothing! We can guarantee you that you will definitely have a wonderful time here.Also
-we have your safety in mind and we will make your camping experience a truly adventurous yet safe one! Also you can play a wide variety of games like cricket,badminton,carrom,volleyball and much more!
-You can bring your gang of friends here and have the most memorable holiday ever .Or this could be a refreshing family trip where you can spend quality time with your family and make precious memories that you
-can hold on to all your life.
-We also sanitize the camps well after each trip.This camp is completely safe for women and children .Couples are welcome too . We guarantee that you are going to love this trip and
-you will love it soo much that you will even suggest your friends to go camping! For queries regarding the booking and the packages feel free to contact us through our email or leave us a message on Whatsapp.
- </p>
+          <p class="bookingpara" style="color:black">Whats more delightful than camping besides a wonderful lake and watching the beautiful rippling waves? Nothing! We can guarantee you that you will definitely have a wonderful time here.Also
+  we have your safety in mind and we will make your camping experience a truly adventurous yet safe one! Also you can play a wide variety of games like cricket,badminton,carrom,volleyball and much more!
+  You can bring your gang of friends here and have the most memorable holiday ever .Or this could be a refreshing family trip where you can spend quality time with your family and make precious memories that you
+  can hold on to all your life.
+  We also sanitize the camps well after each trip.This camp is completely safe for women and children .Couples are welcome too . We guarantee that you are going to love this trip and
+  you will love it soo much that you will even suggest your friends to go camping! For queries regarding the booking and the packages feel free to contact us through our email or leave us a message on Whatsapp.
+   </p>
+
+        </div>
+
+
+
+
+
+</div>
+
     </div>
 
      <div class="contactoptions">
@@ -63,10 +73,32 @@ you will love it soo much that you will even suggest your friends to go camping!
        </a>
 
      </div>
+<!---WhatsApp Popup------------------------------------------------------------------------------------->
+     <!--Jquery-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+     <!--Floating WhatsApp css-->
+     <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+     <!--Floating WhatsApp javascript-->
+     <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+      <div id="WAButton"></div>
+
+      <script type="text/javascript">
+        $(function () {
+                     $('#WAButton').floatingWhatsApp({
+                    phone: '917263949784', //WhatsApp Business phone number
+                    headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+                    popupMessage: 'Hello, how can we help you?', //Popup Message
+                    showPopup: true, //Enables popup display
+                    buttonImage: '<img src="images/whatsappblack.png" />',
+                    position: "right" //Position: left | right
+                });
+            });
+     </script>
 
 
 
-
+<!--- WhatsApp Popup ------------------------------------------------------------------------------------->
 
   </body>
 </html>
