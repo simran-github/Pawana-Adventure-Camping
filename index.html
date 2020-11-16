@@ -13,8 +13,16 @@
   <!--Rules page in red-->
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
   <!--SAfety measures -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+   rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display+SC&display=swap" rel="stylesheet">
   <link rel="icon" href="icon1.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -51,12 +59,12 @@
     <ul class="nav-links">
       <li class="nav-item"><a class="everylink" href="#Home">Home</a></li>
       <li class="nav-item"><a class="everylink" href="#Gallery">Gallery</a></li>
-      <li class="nav-item"><a class="everylink" href="#Location">Location</a></li>
-      <li class="nav-item"><a class="everylink" href="#Iterinary">Iterinary</a></li>
+      <li class="nav-item"><a class="everylink" href="location.html">Location</a></li>
+      <li class="nav-item"><a class="everylink" href="schedule.html">Schedule</a></li>
       <li class="nav-item"><a class="everylink" href="contact.html">Contact</a></li>
     </ul>
 
-    <div class="burger">
+    <div class="burger" onclick="toggleClass">
       <div class="line line1"> </div>
       <div class="line line2"> </div>
       <div class="line line3"> </div>
@@ -82,7 +90,7 @@
 
                                 <div class="booknow">
                                       <a  href="booking.html">
-                                      <button class="button button1" >Book now!!</button>
+                                      <button class="button button1" >Book now!</button>
                                       </a>
                                 </div>
 
@@ -116,7 +124,7 @@
 
                       </div>
 
-                      <div class="introductiondiv">
+                      <div class="intro">
                         <h5 class="introduction">
 
                           Escape Escape Escape!!!
@@ -134,7 +142,7 @@
                     </div>
                     <div class="divider">
 
-                      <h2 class="dividerheading">Safety Measures</h2>
+                      <h2 class="dividerheading">Top Covid Rules</h2>
                       <span class="emailspan">
                           Email:theadventurecamping@gmail.com
                       </span>
@@ -153,33 +161,24 @@
                       </div>
 
                       <div class="introductiondiv">
-                      <h5 class="introduction i">
-                        A very obvious question that might trouble your mind while planning for this trip is - Is it safe to go camping during this pandemic situation?
-                      </h5>
-                      <h5 class="introduction i1">
-                        The good news is that relatively speaking, camping is among the safer forms of recreation you can enjoy right now.
-                      </h5>
-                      <div class="emptyspace">
-                        .
 
-                      </div>
-                      <h5 class="introduction i1">
-                        Some important points to keep in mind....
-                      </h5>
-                      <div class="emptyspace">
-                        .
-
-                      </div>
-                      <h5 class="introduction i2">
-                        1] Come supplied with cleaning and personal hygiene agents: Arrive with your own soap, surface disinfectants, hand sanitizer, paper towels and toilet paper. This is one area where you shouldn't skimp.
-                      </h5>
-                    </div>
+                  <!--      <a href="images/covidrules.jpg">
+                          <img src="images/covidrules.jpg" alt="covid rules">
+                        </a>
 
 
-                    </div>
+                    </div>  -->
             <!--        <div class="divider">
                     <h4>SO GOOD!</h4>
                   </div> -->
+
+
+  </section>
+
+  <section id="Precautions">
+    <a href="images/covidrules.jpg">
+      <img src="images/covidrules.jpg" alt="Covid Rules">
+    </a>
 
 
   </section>
@@ -273,37 +272,15 @@
 
                   </div>
 
-                  <img class="scheduleimg" src="images/schedule.png" alt="schedule">
+                  <div class=scheduleimage>
+                    <a href="images/actualschedule.jpg">
+                      <img src="images/actualschedule.jpg" alt="schedule">
+                    </a>
+                </div>
 
 
   </section>
 
-
-  <section id="Location">
-
-                    <div class="top">
-                .
-                   </div>
-                   <div class="top">
-                .
-                   </div>
-
-
-                    <div class="top">
-
-                      LOCATION
-
-                    </div>
-
-                    <div class="mapouter">
-                      <div class="gmap_canvas">
-
-                        <iframe width=1700 height="1000" id="gmap_canvas" src="https://maps.google.com/maps?q=pawna%20lake&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="true"></iframe>
-
-                      </div>
-
-
-  </section>
 
 
 
@@ -311,3 +288,4 @@
 </body>
 
 </html>
+
