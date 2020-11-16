@@ -29,35 +29,47 @@
 
               <h3>Email Us</h3>
 
-              <form>
+              <div class="alert">Your message has been sent</div>
+
+              <form id="contactForm">
 
                 <p>
                   <label>Name</label>
-                  <input type="text" name="name">
+                  <input type="text" name="name" id="name" required>
                 </p>
 
                 <p>
-                  <label>Number of people</label>
-                  <input type="text" name="number">
+                  <label>Number Of People</label>
+                  <input type="text" name="number" id="numberofpeople" required>
                 </p>
 
                 <p>
                   <label>Email Address</label>
-                  <input type="email" name="email">
+                  <input type="email" name="email" id="email" required>
                 </p>
 
                 <p>
                   <label>Phone Number</label>
-                  <input type="text" name="phone">
+                  <input type="text" name="phone" id="phoneno" required>
+                </p>
+
+                <p>
+                  <label>Date Of Travel (dd/mm/yyyy)</label>
+                  <input type="datetime" name="date" id="date">
+                </p>
+
+                <p>
+                  <label>Mode Of Payment (Google Pay,Phonepe)</label>
+                  <input type="datetime" name="date" id="payment">
                 </p>
 
                 <p class="Full">
                   <label>Message</label>
-                  <textarea name="Message" rows="5"></textarea>
+                  <textarea name="Message" rows="5" id="message"></textarea>
                 </p>
 
                 <p class="Full">
-                  <button>Submit</button>
+                  <button type="submit">Submit</button>
                 </p>
 
               </form>
@@ -67,5 +79,9 @@
       </div>
     </div>
 
+
+   <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase.js"></script>
+
+   <script src="contact.js"> </script>
   </body>
 </html>
